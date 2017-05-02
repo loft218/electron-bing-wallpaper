@@ -1,0 +1,21 @@
+{
+  "name": "bing-wallpaper",
+  "version": "0.0.1",
+  "description": "bing wallpaper",
+  "main": "main.js",
+  "scripts": {
+    "start": "set DEBUG=* && electron .",
+    "pack": "electron-packager . --electron-version=1.6.6 --win32 --asar --overwrite --out ./bin/release"
+  },
+  "keywords": [
+    "bing",
+    "wallpaper"
+  ],
+  "author": "lifeonfoot",
+  "license": "MIT",
+  "dependencies": {
+    "auto-launch": "^5.0.1",
+    "wallpaper": "^2.4.0",
+    "debug": "^2.6.6"
+  }
+}
